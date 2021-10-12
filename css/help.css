@@ -18,3 +18,8 @@
   padding-top: 90px;
   font-size: 27px;
 }
+
+.instructionList {
+  text-align: left;
+  padding-left: 25rem;
+}
