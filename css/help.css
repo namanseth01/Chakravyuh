@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: full;
+  background-image: url(../assets/images/help.jpg);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
