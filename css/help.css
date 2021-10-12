@@ -17,10 +17,17 @@
   text-align: center;
   padding-top: 90px;
   font-size: 27px;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 .instructionList {
   text-align: left;
-  padding-left: 25rem;
+  padding-left: 18rem;
   padding-top: 50px;
+  padding-right: 18rem;
+}
+
+li {
+  padding-top: 20px;
 }
