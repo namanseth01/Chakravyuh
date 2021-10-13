@@ -19,7 +19,7 @@
 
 .content {
   color: whitesmoke;
-  height: 100vh;
+  /* height: 100vh; */
   text-align: center;
   padding-top: 20px;
   font-size: 27px;
@@ -46,7 +46,7 @@
   border: 2px solid white;
   margin: 30px 20px 0 20px;
   border-radius: 15px;
-  background-color: black;
+  background-image: linear-gradient(rgb(243, 116, 65), white);
   box-shadow: 10px 20px 10px grey;
   padding: 40px 20px;
 }
@@ -62,11 +62,14 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  color: black;
 }
 
 .heroIcon {
-  width: 40%;
+  width: 30%;
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
 }
