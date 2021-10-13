@@ -33,3 +33,27 @@
 /* li {
   padding-top: 20px;
 } */
+
+.intructionBox {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid white;
+  margin: 30px 20px 0 20px;
+  border-radius: 15px;
+  background-color: black;
+  box-shadow: 10px 20px 10px grey;
+  padding: 40px 20px;
+}
+
+.intructionNumber {
+  font-size: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.instructionContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
