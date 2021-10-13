@@ -73,3 +73,9 @@
   flex-shrink: 0;
   justify-content: center;
 }
+
+@media (max-width: 850px) {
+  .heroIcon {
+    display: none;
+  }
+}
