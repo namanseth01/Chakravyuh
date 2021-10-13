@@ -6,7 +6,7 @@
 
 .container {
   width: full;
-  background-image: url(../assets/images/help.jpg);
+  background-image: linear-gradient(rgb(111, 111, 116), rgb(155, 101, 101));
   background-attachment: fixed;
   background-size: 100% 100%;
 }
