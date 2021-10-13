@@ -19,7 +19,6 @@
 
 .content {
   color: whitesmoke;
-  height: 100vh;
   text-align: center;
   padding-top: 20px;
   font-size: 27px;
@@ -65,8 +64,10 @@
 }
 
 .heroIcon {
-  width: 40%;
+  width: 30%;
   display: flex;
   flex-direction: row;
+  flex-shrink: 0;
   align-items: center;
+  justify-content: center;
 }
