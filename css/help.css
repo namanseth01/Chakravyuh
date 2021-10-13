@@ -11,6 +11,9 @@
   background-size: 100% 100%;
 }
 
+#border {
+  border-style: dotted;
+}
 .content {
   color: whitesmoke;
   height: 100vh;
