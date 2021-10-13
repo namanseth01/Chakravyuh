@@ -13,6 +13,7 @@
 
 .content {
   color: whitesmoke;
+  height: 100vh;
   text-align: center;
   padding-top: 90px;
   font-size: 27px;
@@ -25,9 +26,10 @@
   padding-left: 18rem;
   padding-top: 25px;
   padding-right: 18rem;
-  padding-bottom: 25rem;
+  /* padding-bottom: 25rem; */
+  /* overflow: hidden; */
 }
 
-li {
+/* li {
   padding-top: 20px;
-}
+} */
