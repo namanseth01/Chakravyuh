@@ -5,17 +5,21 @@
 }
 
 .container {
-  width: full;
   background-image: linear-gradient(rgb(111, 111, 116), rgb(155, 101, 101));
   background-attachment: fixed;
   background-size: 100% 100%;
 }
 
+/* #border {
+  border-style: dotted;
+  height: 100vh;
+} */
+
 .content {
   color: whitesmoke;
   height: 100vh;
   text-align: center;
-  padding-top: 90px;
+  padding-top: 20px;
   font-size: 27px;
   max-width: 1500px;
   margin: 0 auto;
@@ -24,7 +28,7 @@
 .instructionList {
   text-align: left;
   padding-left: 18rem;
-  padding-top: 25px;
+  padding-top: 95px;
   padding-right: 18rem;
   /* padding-bottom: 25rem; */
   /* overflow: hidden; */
