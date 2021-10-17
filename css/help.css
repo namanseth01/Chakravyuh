@@ -95,4 +95,9 @@
   .heroIcon {
     display: none;
   }
+
+  .intructionBox {
+    width: 98%;
+    margin-left: 5px;
+  }
 }
