@@ -21,10 +21,15 @@
   color: whitesmoke;
   /* height: 100vh; */
   text-align: center;
-  padding-top: 20px;
   font-size: 40px;
   max-width: 1500px;
   margin: 0 auto;
+}
+
+.content h1 {
+  position: sticky;
+  top: 0;
+  background-color: black;
 }
 
 .instructionList {
@@ -76,6 +81,14 @@
   align-items: center;
   flex-shrink: 0;
   justify-content: center;
+  overflow: hidden;
+}
+
+.icon {
+  width: 35%;
+  position: fixed;
+  top: 150px;
+  left: 0;
 }
 
 @media (max-width: 850px) {
