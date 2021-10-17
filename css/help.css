@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-padding-top: 70px;
+  scroll-behavior: smooth;
+}
+
 .container1 {
   width: 100%;
   max-width: 1200px;
