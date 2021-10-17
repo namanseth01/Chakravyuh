@@ -49,6 +49,9 @@
   background-image: linear-gradient(rgb(62, 91, 102), white);
   box-shadow: 10px 20px 10px grey;
   padding: 20px 20px;
+  width: 60%;
+  height: 150px;
+  margin-left: 40%;
 }
 
 .intructionNumber {
@@ -83,6 +86,7 @@
   width: 35%;
   height: 550px;
   position: fixed;
+  margin-top: 50px;
 }
 
 @media (max-width: 850px) {
