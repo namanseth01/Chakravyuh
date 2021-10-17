@@ -73,6 +73,8 @@
 .intructionBox:hover {
   padding: 35px 35px;
   margin: 25px 15px 0 15px;
+  margin-left: 40%;
+  width: 53%;
 }
 
 .heroIcon {
