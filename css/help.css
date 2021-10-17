@@ -80,10 +80,9 @@
   align-items: center;
   flex-shrink: 0;
   justify-content: center;
+  width: 35%;
+  height: 550px;
   position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10;
 }
 
 @media (max-width: 850px) {
