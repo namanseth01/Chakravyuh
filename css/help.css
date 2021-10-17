@@ -16,7 +16,7 @@ html {
 }
 
 .header {
-  background-color: grey;
+  background-color: rgb(82, 76, 76);
   width: 100%;
   height: 70px;
   max-width: 1200px;
@@ -68,6 +68,7 @@ html {
   background-size: 100% 100%;
   display: flex;
   flex-direction: row;
+  margin-top: 45px;
 }
 
 /* #border {
@@ -126,6 +127,7 @@ html {
   align-items: center;
   color: black;
   font-size: 20px;
+  text-align: left;
 }
 
 .intructionBox:hover {
@@ -143,10 +145,10 @@ html {
   align-items: center;
   flex-shrink: 0;
   justify-content: center;
-  width: 35%;
+  width: 33%;
   height: 550px;
   position: fixed;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 @media (max-width: 850px) {
