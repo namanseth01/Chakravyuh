@@ -63,7 +63,7 @@ button:hover {
   background-color: #fefefe;
   margin: 25px auto 15% auto;
   border: 1px solid #888;
-  width: 60%;
+  width: 50%;
 }
 
 hr {
@@ -77,7 +77,7 @@ hr {
   display: table;
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 500px) {
   .cancelbtn,
   .signupbtn {
     width: 100%;
