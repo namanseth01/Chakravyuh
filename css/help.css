@@ -5,7 +5,7 @@
 }
 
 .container {
-  background-image: linear-gradient(black, white);
+  background-image: linear-gradient(rgb(111, 111, 116), rgb(155, 101, 101));
   background-attachment: fixed;
   background-size: 100% 100%;
   display: flex;
@@ -21,15 +21,10 @@
   color: whitesmoke;
   /* height: 100vh; */
   text-align: center;
+  padding-top: 20px;
   font-size: 40px;
   max-width: 1500px;
   margin: 0 auto;
-}
-
-.content h1 {
-  position: sticky;
-  top: 0;
-  background-color: black;
 }
 
 .instructionList {
@@ -51,12 +46,9 @@
   border: 2px solid white;
   margin: 30px 20px 0 20px;
   border-radius: 15px;
-  background-image: linear-gradient(rgb(62, 91, 102), white);
+  background-image: linear-gradient(rgb(65, 193, 243), white);
   box-shadow: 10px 20px 10px grey;
   padding: 20px 20px;
-  width: 62%;
-  /* height: 150px; */
-  margin-left: 35%;
 }
 
 .intructionNumber {
@@ -75,13 +67,6 @@
   font-size: 20px;
 }
 
-.intructionBox:hover {
-  padding: 35px 35px;
-  margin: 25px 15px 0 15px;
-  margin-left: 40%;
-  width: 53%;
-}
-
 .heroIcon {
   padding: 0 40px;
   width: 35%;
@@ -89,7 +74,6 @@
   flex-direction: row;
   flex-shrink: 0;
   align-items: center;
-  flex-shrink: 0;
   justify-content: center;
   overflow: hidden;
 }
@@ -104,10 +88,5 @@
 @media (max-width: 850px) {
   .heroIcon {
     display: none;
-  }
-
-  .intructionBox {
-    width: 98%;
-    margin-left: 5px;
   }
 }
