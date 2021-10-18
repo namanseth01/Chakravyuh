@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: rgb(212, 194, 194);
+  outline: none;
+}
+
+button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+.cancelbtn,
+.signupbtn {
+  float: left;
+  width: 50%;
+}
+
+.container {
+  padding: 20px;
+}
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(31, 24, 24);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 25px auto 25px auto;
+  border: 1px solid #888;
+  width: 40%;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.fix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* @media screen and (max-width: 1300px) {
+  .modal-content {
+    margin: 60px auto 10px auto;
+  }
+}
+ */
+
+/* @media screen and (max-width: 1600px) {
+  .modal-content {
+    margin: 5% auto 5% auto;
+  }
+} */
+
+@media screen and (max-width: 1000px) {
+  .modal-content {
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cancelbtn,
+  .signupbtn {
+    width: 100%;
+  }
+
+  .modal-content {
+    margin-bottom: 20px;
+  }
+}
