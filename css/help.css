@@ -1,84 +1,58 @@
 * {
-  padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  padding: 0;
 }
 
 .container {
-  background-image: linear-gradient(rgb(111, 111, 116), rgb(155, 101, 101));
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  display: flex;
-  flex-direction: row;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+    url("https://www.publicdomainpictures.net/pictures/160000/velka/the-maze.jpg");
+  min-height: 100vh;
 }
 
-/* #border {
-  border-style: dotted;
-  height: 100vh;
-} */
+.container h1 {
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
+
+@keyframes slider {
+  0% {
+    transform: translateX(-500px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
 
 .content {
-  color: whitesmoke;
-  /* height: 100vh; */
-  text-align: center;
-  padding-top: 20px;
-  font-size: 27px;
-  max-width: 1500px;
-  margin: 0 auto;
+  animation-name: slider;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 0.5s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
 }
 
-.instructionList {
-  text-align: left;
-  padding-left: 18rem;
-  padding-top: 95px;
-  padding-right: 18rem;
-  /* padding-bottom: 25rem; */
-  /* overflow: hidden; */
+.content p {
+  max-width: 900px;
+  border-radius: 5px;
+  color: red;
+  font-size: 18px;
+  border: 1px solid red;
+  padding: 2px 10px;
+  margin: 30px auto;
 }
 
-/* li {
-  padding-top: 20px;
-} */
-
-.intructionBox {
-  display: flex;
-  flex-direction: row;
-  border: 2px solid white;
-  margin: 30px 20px 0 20px;
-  border-radius: 15px;
-  background-image: linear-gradient(rgb(65, 193, 243), white);
-  box-shadow: 10px 20px 10px grey;
-  padding: 20px 20px;
+.content p:hover {
+  background-color: red;
+  color: white;
 }
 
 .intructionNumber {
-  font-size: 100px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  color: black;
-}
-
-.instructionContent {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  color: black;
-  font-size: 20px;
-}
-
-.heroIcon {
-  padding: 0 40px;
-  width: 35%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  flex-shrink: 0;
-  justify-content: center;
-}
-
-@media (max-width: 850px) {
-  .heroIcon {
-    display: none;
-  }
+  font-size: 40px;
+  font-weight: 600;
+  padding-right: 10px;
 }
