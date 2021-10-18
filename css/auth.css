@@ -17,7 +17,7 @@ input[type="password"] {
 /* Add a background color when the inputs get focus */
 input[type="text"]:focus,
 input[type="password"]:focus {
-  background-color: #ddd;
+  background-color: rgb(212, 194, 194);
   outline: none;
 }
 
@@ -53,7 +53,7 @@ button:hover {
 /* Add padding to container elements */
 .container {
   padding: 20px;
-  margin-top: 5px;
+  /* margin-top: 5px; */
 }
 
 /* The Modal (background) */
