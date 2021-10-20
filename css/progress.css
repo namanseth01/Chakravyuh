@@ -1,0 +1,61 @@
+body{
+    background-color: #e2e2e2;
+}
+
+.user-profile {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+    margin-top: 8px;
+    margin-right: 6px;
+    float: right;
+}
+
+.navbar-band {
+    padding: 0;
+    margin: 0;
+    font-size: 35px;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    font-style: italic;
+    color: whitesmoke;
+    float: right;
+}
+
+.navbar {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 4rem;
+    background-color: black;
+    text-align: center;
+    display: inline-flex;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./../assets/images/wood-ga4695cf55_1920.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon {
+    width: 40%;
+}
+
+.header {
+    width: 60%;
+}
+
+.drop {
+    width: 10%;
+    float: right;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    display: none;
+    z-index: 4567;
+}
