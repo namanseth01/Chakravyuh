@@ -46,7 +46,7 @@
 </div>
 <div class="master-div">
     <div class="score">
-
+            <H1>progress meter</H1>
     </div>
     <div id="container" class="graph">
 
@@ -65,7 +65,14 @@
             ['4',  78]
         ]);
 
-        let options = {title: 'Score in last 5 games'};
+        let options = {title: 'Score in last 5 games',  bars: 'vertical', // Required for Material Bar Charts.
+          axes: {
+            x: {
+              0: { side: 'bottom', label: 'Percentage'} // Top x-axis.
+            }
+          }
+        
+        }
 
         // Instantiate and draw the chart.
         let chart = new google.visualization.BarChart(document.getElementById('container'));
