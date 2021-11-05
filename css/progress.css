@@ -1,5 +1,8 @@
 body{
     background-color: #e2e2e2;
+    position: fixed;
+    padding: 0;
+    margin: 0;
 }
 
 .user-profile {
@@ -13,6 +16,7 @@ body{
     margin-right: 6px;
     float: right;
 }
+
 
 .navbar-band {
     padding: 0;
@@ -75,4 +79,19 @@ body{
 .score{
     width: 50vw;
     margin-left: 40px;
+    align-items: center;
+    text-align: center;
+}
+#green{
+    height: 25px;
+    width: 150px;
+    background-color: green;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+.value{
+    display: inline-flex;
+    margin-top: 35px;
 }
