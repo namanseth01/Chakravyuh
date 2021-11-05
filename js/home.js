@@ -2,7 +2,6 @@ $(document).ready(function () {});
 
 const toggle = () => {
   $("#drop-id").click(function () {
-    console.log(hhh);
     $(".drop").slideToggle();
   });
 };
