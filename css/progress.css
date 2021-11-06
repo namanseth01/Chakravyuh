@@ -92,6 +92,8 @@ body{
     color: whitesmoke;
 }
 .value{
-    display: inline-flex;
     margin-top: 35px;
+}
+.box{
+    display: inline-flex;
 }
