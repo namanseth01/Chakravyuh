@@ -58,19 +58,35 @@
                 <br>
 
                 <div class="box">
-                    <div id="green">
-                         <p>90-100</p>
+                    <div id="yellow-green">
+                         <p>80-90</p>
                      </div>
                      <div class="val">&nbsp; &nbsp; &nbsp; Excellent</div>
                 </div>
                 <br>
                 <br>
                 <div class="box">
-                    <div id="green">
-                             <p>90-100</p>
+                    <div id="yellow">
+                             <p>65-80</p>
                     </div>
                     <div class="val">&nbsp; &nbsp; &nbsp; Excellent</div>
-                         </div>
+                </div>
+                <br>
+                <br>
+                <div class="box">
+                    <div id="orange">
+                             <p>40-65</p>
+                    </div>
+                    <div class="val">&nbsp; &nbsp; &nbsp; Excellent</div>
+                </div>
+                <br>
+                <br>
+                <div class="box">
+                    <div id="red">
+                             <p>0-40</p>
+                    </div>
+                    <div class="val">&nbsp; &nbsp; &nbsp; Excellent</div>
+                </div>
             </div> 
             </div>
     <div id="container" class="graph">
@@ -83,7 +99,7 @@
     google.charts.setOnLoadCallback(drawChart);
     function drawChart() {
       var data = google.visualization.arrayToDataTable([
-        ["Element", "Density", { role: "style" } ],
+        ["Day", "Score", { role: "style" } ],
         ["Copper", 8.94, "#b87333"],
         ["Silver", 10.49, "silver"],
         ["Gold", 19.30, "gold"],
@@ -99,9 +115,9 @@
                        2]);
 
       var options = {
-        title: "Density of Precious Metals, in g/cm^3",
+        title: "Progress Display Chart",
         width: 600,
-        height: 400,
+        height: 550,
         bar: {groupWidth: "95%"},
         legend: { position: "none" },
       };
