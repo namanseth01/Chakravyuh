@@ -27,7 +27,6 @@ body{
 }
 
 .about-app{
-    margin-left: 30px;
 }
 
 .application-details{
@@ -36,8 +35,14 @@ body{
 }
 
 .founders{
-    display: inline-flex;
-    margin-left: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#app-detail{
+    display: inline-flex
 }
 
 .details{
@@ -72,4 +77,42 @@ a:visited{
 hr{
     width: 70%;
     color: blue;
+}
+
+.pic{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.details{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+@media screen and (max-width: 500px) {
+    .founders{
+        display: block;
+    }
+
+    .details{
+        margin-left: 12%;
+    }
+
+    .pic{
+        margin-left: 12%;
+    }
+
+    #app-detail{
+        display: block;
+    }
+
+    .application-details{
+        width: 100%;
+    }
+
+    #img-logo{
+        margin-left: 12%;
+    }
 }

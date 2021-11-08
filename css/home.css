@@ -45,7 +45,7 @@ body {
 }
 
 .icon {
-    width: 40%;
+    width: 20%;
 }
 
 .header {
@@ -71,7 +71,7 @@ a {
 }
 
 .container {
-    padding-top: 15%;
+    padding-top: 10rem;
 }
 
 .btn {
