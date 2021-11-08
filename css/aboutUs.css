@@ -1,75 +1,69 @@
-body{
-    background-color: #e2e2e2;
+body {
+  background-color: #e2e2e2;
 }
 
-
-.aboutus-master{
-    width: 100%;
-    height: 50vh;
-    padding-top: 65px;
+.aboutus-master {
+  width: 100%;
+  height: 50vh;
+  padding-top: 65px;
 }
 
-.banner{
-    width: 100%;
-    height: 50vh;
+.banner {
+  width: 100%;
+  height: 50vh;
 }
 
-.banner-img{
-    width: 100%;
-    height: 50vh;
+.banner-img {
+  width: 100%;
+  height: 50vh;
 }
 
-.application{
-    font-weight: bold;
-    font-style: italic;
-    font-family: "Times New Roman", serif;
-
+.application {
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Times New Roman", serif;
 }
 
-.about-app{
-    margin-left: 30px;
+.about-app {
+  margin-left: 30px;
 }
 
-.application-details{
-    font-size: 20px;
-    width: 80%;
+.application-details {
+  font-size: 20px;
+  width: 80%;
 }
 
-.founders{
-    display: inline-flex;
-    margin-left: 28%;
+.founders {
+  display: inline-flex;
+  margin-left: 28%;
 }
 
-.details{
-    margin-top: 8%;
-    font-size: 20px;
-    font-family: "Times New Roman";
-    font-style: italic;
-    font-weight: bold;
-    width: 50%;
+.details {
+  margin-top: 8%;
+  font-size: 20px;
+  font-family: "Times New Roman";
+  font-style: italic;
+  font-weight: bold;
+  width: 50%;
 }
 
-.picture{
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    background-size: cover;
+.picture {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-size: cover;
 }
 
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
 
-a:hover{
-
+a:visited {
+  color: black;
 }
 
-a:visited{
-    color: black;
-}
-
-hr{
-    width: 70%;
-    color: blue;
+hr {
+  width: 70%;
+  color: blue;
 }
