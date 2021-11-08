@@ -13,6 +13,12 @@ body {
   font-family: "Montserrat", serif;
 }
 
+.container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+    url("https://www.publicdomainpictures.net/pictures/160000/velka/the-maze.jpg");
+  min-height: 100vh;
+}
+
 main {
   width: 100%;
   min-height: 100vh;
