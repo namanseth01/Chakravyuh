@@ -46,7 +46,7 @@
 </div>
 <div class="master-div">
     <div class="score">
-            <H1>progress meter</H1>
+            <H1>Progress Bar</H1>
             <div class="value">
                 <div class="box">
                <div id="green">
@@ -61,7 +61,7 @@
                     <div id="yellow-green">
                          <p>80-90</p>
                      </div>
-                     <div class="val">&nbsp; &nbsp; &nbsp; Excellent</div>
+                     <div class="val">&nbsp; &nbsp; &nbsp; Great</div>
                 </div>
                 <br>
                 <br>
@@ -69,7 +69,7 @@
                     <div id="yellow">
                              <p>65-80</p>
                     </div>
-                    <div class="val">&nbsp; &nbsp; &nbsp; Excellent</div>
+                    <div class="val">&nbsp; &nbsp; &nbsp; Good</div>
                 </div>
                 <br>
                 <br>
@@ -77,7 +77,7 @@
                     <div id="orange">
                              <p>40-65</p>
                     </div>
-                    <div class="val">&nbsp; &nbsp; &nbsp; Excellent</div>
+                    <div class="val">&nbsp; &nbsp; &nbsp; Okay</div>
                 </div>
                 <br>
                 <br>
@@ -85,7 +85,7 @@
                     <div id="red">
                              <p>0-40</p>
                     </div>
-                    <div class="val">&nbsp; &nbsp; &nbsp; Excellent</div>
+                    <div class="val">&nbsp; &nbsp; &nbsp; Poor</div>
                 </div>
             </div> 
             </div>
@@ -100,10 +100,10 @@
     function drawChart() {
       var data = google.visualization.arrayToDataTable([
         ["Day", "Score", { role: "style" } ],
-        ["Copper", 8.94, "#b87333"],
-        ["Silver", 10.49, "silver"],
-        ["Gold", 19.30, "gold"],
-        ["Platinum", 21.45, "color: #e5e4e2"]
+        ["Today", 80, "yellowgreen"],
+        ["Yesterday", 95, "green"],
+        ["20/11/2021", 25, "red"],
+        ["20/11/2021", 51, "orange"]
       ]);
 
       var view = new google.visualization.DataView(data);

@@ -97,3 +97,39 @@ body{
 .box{
     display: inline-flex;
 }
+#yellow-green{
+    height: 25px;
+    width: 150px;
+    background-color: greenyellow;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+}
+#yellow{
+    height: 25px;
+    width: 150px;
+    background-color: yellow;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+}
+#orange{
+    height: 25px;
+    width: 150px;
+    background-color: orange;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+}
+#red{
+    height: 25px;
+    width: 150px;
+    background-color: red;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+}
