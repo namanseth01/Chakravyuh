@@ -36,8 +36,11 @@ body{
 }
 
 .founders{
-    display: inline-flex;
-    margin-left: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
 }
 
 .details{
@@ -72,4 +75,17 @@ a:visited{
 hr{
     width: 70%;
     color: blue;
+}
+
+.pic{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+.details{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
