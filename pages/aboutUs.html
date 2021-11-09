@@ -1,123 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@7.1.0/dist/promise.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"
-            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="../css/home.css">
-    <link rel="stylesheet" href="../css/aboutUs.css">
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/aboutUs.css" />
     <script src="../js/home.js"></script>
     <title>About Us</title>
-</head>
-<body>
-<div class="navbar">
-    <div class="header">
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="header">
         <p class="navbar-band"><a href="./home.html">CHAKRAVYUH</a></p>
+      </div>
+      <div class="icon" id="drop-id">
+        <img
+          src="./../assets/images/usericon.jpg"
+          alt=""
+          class="user-profile"
+        />
+      </div>
+      <div class="drop" id="drop-id1">
+        <a href="#" class="logout" style="color: black">Log Out</a>
+      </div>
     </div>
-    <div class="icon" id="drop-id">
-        <img src="./../assets/images/usericon.jpg" alt="" class="user-profile"/>
+    <div class="aboutus-master">
+      <div class="banner">
+        <img
+          class="banner-img"
+          src="https://aquaclearsolution.com/wp-content/uploads/2020/12/contactus_banner-1536x456.jpg"
+          alt=""
+        />
+      </div>
     </div>
-    <div class="drop" id="drop-id1">
-        <a href="#" class="logout" style="color: black;">Log Out</a>
-    </div>
-</div>
-<div class="aboutus-master">
 
-    <div class="banner">
-        <img class="banner-img"
-             src="https://aquaclearsolution.com/wp-content/uploads/2020/12/contactus_banner-1536x456.jpg" alt="">
-    </div>
-</div>
-
-<div class="about-app">
-    <h1 class="application">The Application</h1>
-    <br>
-    <div id="app-detail">
-        <div style="width: 60%; margin: auto; justify-content: center; align-items: center">
-            <p class="application-details">
-                Chakravyuh is a quiz game which provides users with a vast variety of questions at multiple levels.
-                Users can choose their field of interest from which the question is being asked. Each level has its own
-                toughness and speciality. One has to cross all the levels of the game to become <b><i>‘Arjuna’</i> </b>
-                of the Chakravyuh. So welcome to the Chakravyuh and ALL THE BEST to crack it.
-            </p>
+    <div class="about-app">
+      <h1 class="application">The Application</h1>
+      <br />
+      <div id="app-detail">
+        <div
+          style="
+            width: 60%;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          <p class="application-details">
+            Chakravyuh is a quiz game which provides users with a vast variety
+            of questions at multiple levels. Users can choose their field of
+            interest from which the question is being asked. Each level has its
+            own toughness and speciality. One has to cross all the levels of the
+            game to become <b><i>‘Arjuna’</i> </b>
+            of the Chakravyuh. So welcome to the Chakravyuh and ALL THE BEST to
+            crack it.
+          </p>
         </div>
         <div id="img-logo" style="justify-content: center; align-items: center">
-            <img style="height: 250px; width: 250px; border-radius: 50%; background-size: cover" src="../assets/images/chakralogo.PNG" alt="">
+          <img
+            style="
+              height: 250px;
+              width: 250px;
+              border-radius: 50%;
+              background-size: cover;
+            "
+            src="../assets/images/chakralogo.PNG"
+            alt=""
+          />
         </div>
-    </div>
-    <hr>
-    <h1 class="application" style="text-align: center">The Founders</h1>
-    <div class="founders">
+      </div>
+      <hr />
+      <h1 class="application" style="text-align: center">The Founders</h1>
+      <div class="founders">
         <div class="pic">
-            <img class="picture" src="../assets/images/WhatsApp%20Image%202021-11-08%20at%207.31.23%20PM.jpeg" alt="">
+          <img
+            class="picture"
+            src="../assets/images/WhatsApp%20Image%202021-11-08%20at%207.31.23%20PM.jpeg"
+            alt=""
+          />
         </div>
-        <div class="details" style="margin-left: 12%;">
-            Name: Devvrat Sharma
-            <br>
-            Email : <a href="mailto: devvrat.sharma_cs19@gla.ac.in">devvrat.sharma_cs19@gla.ac.in</a>
-            <br>
-            github: <a href="https://github.com/devrats" target="_blank">devrats</a>
+        <div class="details" style="margin-left: 12%">
+          Name: Devvrat Sharma
+          <br />
+          Email :
+          <a href="mailto: devvrat.sharma_cs19@gla.ac.in"
+            >devvrat.sharma_cs19@gla.ac.in</a
+          >
+          <br />
+          github:
+          <a href="https://github.com/devrats" target="_blank">devrats</a>
         </div>
-    </div>
-    <br>
-    <hr>
-    <div class="founders">
+      </div>
+      <br />
+      <hr />
+      <div class="founders">
         <div class="details">
-            Name: Naman Seth
-            <br>
-            Email : <a href="mailto: naman.seth_cs19@gla.ac.in">naman.seth_cs19@gla.ac.in</a>
-            <br>
-            github: <a href="https://github.com/namanseth01" target="_blank">namanseth01</a>
+          Name: Naman Seth
+          <br />
+          Email :
+          <a href="mailto: naman.seth_cs19@gla.ac.in"
+            >naman.seth_cs19@gla.ac.in</a
+          >
+          <br />
+          github:
+          <a href="https://github.com/namanseth01" target="_blank"
+            >namanseth01</a
+          >
         </div>
-        <div class="pic" style="margin-left: 12%;">
-            <img class="picture" src="../assets/images/WhatsApp%20Image%202021-11-08%20at%207.31.23%20PM.jpeg" alt="">
+        <div class="pic" style="margin-left: 12%">
+          <img class="picture" src="../assets/images/Naman.jpg" alt="" />
         </div>
-    </div>
-    <br>
-    <hr>
-    <div class="founders">
+      </div>
+      <br />
+      <hr />
+      <div class="founders">
         <div class="pic">
-            <img class="picture" src="../assets/images/WhatsApp%20Image%202021-11-08%20at%207.31.23%20PM.jpeg" alt="">
+          <img
+            class="picture"
+            src="../assets/images/WhatsApp%20Image%202021-11-08%20at%207.31.23%20PM.jpeg"
+            alt=""
+          />
         </div>
-        <div class="details" style="margin-left: 12%;">
-            Name: Anirudh Mishra
-            <br>
-            Email : <a href="mailto: anirudh.mishra_cs19@gla.ac.in">anirudh.mishra_cs19@gla.ac.in</a>
-            <br>
-            github: <a href="https://github.com/andyrude" target="_blank">andyrude</a>
+        <div class="details" style="margin-left: 12%">
+          Name: Anirudh Mishra
+          <br />
+          Email :
+          <a href="mailto: anirudh.mishra_cs19@gla.ac.in"
+            >anirudh.mishra_cs19@gla.ac.in</a
+          >
+          <br />
+          github:
+          <a href="https://github.com/andyrude" target="_blank">andyrude</a>
         </div>
-    </div>
-    <br>
-    <hr>
-    <div class="founders">
+      </div>
+      <br />
+      <hr />
+      <div class="founders">
         <div class="details">
-            Name: Ayush Joshi
-            <br>
-            Email : <a href="mailto: ayush.joshi_cs19@gla.ac.in">ayush.joshi_cs19@gla.ac.in</a>
-            <br>
-            github: <a href="https://github.com/ayushjoshi2001" target="_blank">ayushjoshi2001</a>
+          Name: Ayush Joshi
+          <br />
+          Email :
+          <a href="mailto: ayush.joshi_cs19@gla.ac.in"
+            >ayush.joshi_cs19@gla.ac.in</a
+          >
+          <br />
+          github:
+          <a href="https://github.com/ayushjoshi2001" target="_blank"
+            >ayushjoshi2001</a
+          >
         </div>
-        <div class="pic" style="margin-left: 12%;">
-            <img class="picture" src="../assets/images/WhatsApp%20Image%202021-11-08%20at%207.31.23%20PM.jpeg" alt="">
+        <div class="pic" style="margin-left: 12%">
+          <img
+            class="picture"
+            src="../assets/images/WhatsApp%20Image%202021-11-08%20at%207.31.23%20PM.jpeg"
+            alt=""
+          />
         </div>
     </div>
 </div>
