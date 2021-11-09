@@ -5,7 +5,7 @@
 
 .container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
-    url("https://www.publicdomainpictures.net/pictures/160000/velka/the-maze.jpg");
+    url("../assets/images/the-maze.jpg");
   min-height: 100vh;
   margin: 0;
   padding: 0;
