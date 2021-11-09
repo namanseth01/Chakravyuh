@@ -63,20 +63,12 @@ body{
 
 a{
     text-decoration: none;
-    color: black;
-}
-
-a:hover{
-
-}
-
-a:visited{
-    color: black;
 }
 
 hr{
     width: 70%;
     color: blue;
+    height: 15px;
 }
 
 .pic{
@@ -89,6 +81,11 @@ hr{
     justify-content: center;
     align-items: center;
     margin: auto;
+    color: black;
+}
+
+.details a{
+    color: black;
 }
 
 @media screen and (max-width: 500px) {
