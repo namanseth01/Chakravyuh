@@ -67,11 +67,11 @@ body{
 .graph{
     width: 600px;
     height: 65vh;
-
 }
 .box-graph{
-    width: 50%;
+    width: 50vw;
     height: 90vh;
+    padding: 20px;
 }
 .master-div{
     width: 100%;
@@ -146,6 +146,8 @@ body{
     .master-div{
         display: block;
         padding: 20px;
+        align-items: center;
+        justify-content: center;
     }
     .score{
         width: 100%;
