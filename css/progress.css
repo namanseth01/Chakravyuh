@@ -54,14 +54,16 @@ body{
 
 .drop {
     width: 10%;
-    float: right;
+    position: absolute;
+    right: 0;
+    top: 65px;
     background-color: white;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
     color: black;
     display: none;
-    z-index: 4567;
+    z-index: 45677;
 }
 
 .graph{

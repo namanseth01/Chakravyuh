@@ -50,20 +50,21 @@ body {
 }
 
 .header {
-  width: 60%;
+    width: 60%;
 }
 
 .drop {
-  width: 10%;
-  justify-content: right;
-  align-items: end;
-  background-color: white;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  color: black;
-  display: none;
-  z-index: 45677;
+    width: 10%;
+    position: absolute;
+    right: 0;
+    top: 65px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    display: none;
+    z-index: 45677;
 }
 
 a {

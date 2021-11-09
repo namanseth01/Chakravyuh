@@ -4,14 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Question</title>
+    <title>Document</title>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@7.1.0/dist/promise.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
     <script src="../js/home.js"></script>
     <link rel="stylesheet" href="../css/question.css" />
     <link rel="stylesheet" href="../css/home.css" />
   </head>
   <body onload="NextQuestion(0)">
     <main>
-      <div class="navbar" style="position: absolute; top: 0; padding: 0">
+      <div class="navbar" style="position: absolute; top: 0">
         <div class="header">
           <p class="navbar-band" style="margin-top: 12px">
             <a href="./home.html">CHAKRAVYUH</a>
@@ -136,4 +152,10 @@
     </main>
     <script src="../js/question.js"></script>
   </body>
+  <script>
+    $("#drop-id").click(function () {
+      console.log("lol");
+      $(".drop").slideToggle();
+    });
+  </script>
 </html>
