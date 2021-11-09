@@ -44,6 +44,7 @@ button:hover {
 .signupbtn {
   float: left;
   width: 50%;
+  border-radius: 5px;
 }
 
 .container {
@@ -65,7 +66,7 @@ button:hover {
   background-color: #fefefe;
   margin: 25px auto 25px auto;
   border: 1px solid #888;
-  width: 40%;
+  width: 550px;
 }
 
 hr {
@@ -98,13 +99,15 @@ hr {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 630px) {
   .cancelbtn,
   .signupbtn {
     width: 100%;
   }
 
   .modal-content {
-    margin-bottom: 20px;
+    margin-top: 0;
+    width: 100%;
+    height: 100vh;
   }
 }
