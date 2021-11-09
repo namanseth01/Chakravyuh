@@ -7,9 +7,21 @@
     <title>Document</title>
     <script src="../js/home.js"></script>
     <link rel="stylesheet" href="../css/question.css" />
+    <link rel="stylesheet" href="../css/home.css">
   </head>
   <body onload="NextQuestion(0)">
     <main>
+      <div class="navbar" style="position: relative; padding: 0; margin-top: -119px;" >
+        <div class="header">
+          <p class="navbar-band"><a href="./home.html">CHAKRAVYUH</a></p>
+        </div>
+        <div class="icon" id="drop-id">
+          <img src="./../assets/images/usericon.jpg" alt="" class="user-profile"/>
+        </div>
+        <div class="drop" id="drop-id1">
+          <a href="#" class="logout" style="color: black;">Log Out</a>
+        </div>
+      </div>
       <!-- creating a modal for when quiz ends -->
       <div class="modal-container" id="score-modal">
         <div class="modal-content-container">
