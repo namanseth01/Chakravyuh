@@ -367,13 +367,7 @@ function handleEndGame() {
 
 //closes score modal and resets game
 function closeScoreModal() {
-  questionNumber = 1;
-  playerScore = 0;
-  wrongAttempt = 0;
-  indexNumber = 0;
-  shuffledQuestions = [];
-  NextQuestion(indexNumber);
-  document.getElementById("score-modal").style.display = "none";
+  window.location.href = "../pages/home.html";
 }
 
 //function to close warning modal
