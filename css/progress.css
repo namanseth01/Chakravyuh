@@ -74,14 +74,12 @@ body {
   width: 50vw;
   height: 90vh;
   padding: 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .master-div {
   width: 100%;
   height: 90vh;
   display: inline-flex;
-  margin-top: 100px;
+  margin-top: 30px;
   padding: 0%;
 }
 .score {
