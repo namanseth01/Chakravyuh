@@ -135,10 +135,10 @@ const questions = [
   },
 
   {
-    question: "How man states does Nigeria have ?",
+    question: "How many states does India have ?",
     optionA: "24",
     optionB: "30",
-    optionC: "36",
+    optionC: "28",
     optionD: "37",
     correctOption: "optionC",
   },
