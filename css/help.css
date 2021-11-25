@@ -31,10 +31,6 @@
   animation-name: slider;
   animation-duration: 0.5s;
   animation-timing-function: ease-out;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-fill-mode: none;
-  animation-play-state: running;
 }
 
 #two {
