@@ -149,7 +149,7 @@ const questions = [
     optionB: "Lagos",
     optionC: "New York",
     optionD: "Washington DC",
-    correctOption: "optionD",
+    correctOption: "optionA",
   },
 
   {
