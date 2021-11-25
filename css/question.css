@@ -29,9 +29,9 @@ main {
 }
 
 .game-quiz-container {
-  width: 40rem;
-  height: 30rem;
-  background-color: lightgray;
+  width: 60rem;
+  height: 50 rem;
+  background-color: rgb(233, 159, 90);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,7 +57,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid darkgray;
+  border: 2px solid rgb(233, 159, 90);
   border-radius: 25px;
 }
 
@@ -79,7 +79,7 @@ main {
 .game-options-container span {
   width: 45%;
   height: 3rem;
-  border: 2px solid darkgray;
+  border: 2px solid rgb(233, 159, 90);
   border-radius: 20px;
   overflow: hidden;
 }
@@ -98,7 +98,7 @@ span label {
 span label:hover {
   -ms-transform: scale(1.12);
   -webkit-transform: scale(1.12);
-  transform: scale(1.12);
+  transform: scale(2.12);
   color: white;
 }
 
@@ -108,7 +108,7 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked ~ .option {
-  background: paleturquoise;
+  background: rgb(7, 11, 245);
 }
 
 .next-button-container {
@@ -129,7 +129,8 @@ input[type="radio"]:checked ~ .option {
   outline: none;
 }
 .next-button-container button:hover {
-  background-color: rgb(143, 93, 93);
+  background-color: whitesmoke;
+  transform: scale(1.2);
 }
 
 .modal-container {
@@ -152,8 +153,8 @@ input[type="radio"]:checked ~ .option {
 
 .modal-content-container {
   height: 20rem;
-  width: 25rem;
-  background-color: rgb(43, 42, 42);
+  width: 22rem;
+  background-color: rgb(255, 123, 0);
   display: flex;
   flex-direction: column;
   align-items: center;
