@@ -29,6 +29,7 @@ main {
 }
 
 .game-quiz-container {
+  margin-top: 50px;
   width: 60rem;
   height: 50 rem;
   background-color: rgb(233, 159, 90);
@@ -243,6 +244,7 @@ input[type="radio"]:checked ~ .option {
   .game-quiz-container {
     width: 90%;
     height: 80vh;
+    background-size: cover;
   }
   .game-details-container h1 {
     font-size: 1rem;

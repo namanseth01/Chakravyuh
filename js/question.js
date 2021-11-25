@@ -144,12 +144,12 @@ const questions = [
   },
 
   {
-    question: "____ is the capital of Nigeria ?",
-    optionA: "Abuja",
+    question: "____ is the capital of United States ?",
+    optionA: "Californis",
     optionB: "Lagos",
-    optionC: "Calabar",
-    optionD: "Kano",
-    correctOption: "optionA",
+    optionC: "New York",
+    optionD: "Washington DC",
+    correctOption: "optionD",
   },
 
   {
