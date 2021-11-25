@@ -50,21 +50,21 @@ body {
 }
 
 .header {
-    width: 60%;
+  width: 60%;
 }
 
 .drop {
-    width: 10%;
-    position: absolute;
-    right: 0;
-    top: 65px;
-    background-color: white;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    color: black;
-    display: none;
-    z-index: 45677;
+  width: 10%;
+  position: absolute;
+  right: 0;
+  top: 65px;
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  display: none;
+  z-index: 45677;
 }
 
 a {
@@ -133,25 +133,25 @@ a {
 }
 
 #one a:hover {
-  font-size: 30px;
+  font-size: 32px;
   text-decoration: none;
   color: burlywood;
 }
 
 #two a:hover {
-  font-size: 30px;
+  font-size: 32px;
   text-decoration: none;
   color: burlywood;
 }
 
 #three a:hover {
-  font-size: 30px;
+  font-size: 32px;
   text-decoration: none;
   color: burlywood;
 }
 
 #four a:hover {
-  font-size: 30px;
+  font-size: 32px;
   text-decoration: none;
   color: burlywood;
 }
