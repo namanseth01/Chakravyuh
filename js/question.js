@@ -173,7 +173,7 @@ const questions = [
   {
     question: "How many sides does an hexagon have ?",
     optionA: "Six",
-    optionB: "Sevene",
+    optionB: "Seven",
     optionC: "Four",
     optionD: "Five",
     correctOption: "optionA",
